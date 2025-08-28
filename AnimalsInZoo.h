@@ -6,12 +6,11 @@ class AnimalsInZoo {
    public:
       AnimalsInZoo(Animal animal);
 
-      AnimalsInZoo() : numAnimals(0) {};
+      AnimalsInZoo();
 
       void display();
-
    private:
-      unsigned int numAnimals = 0;
+      int numAnimals;
       Animal animal;
 };
 #endif
